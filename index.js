@@ -1,7 +1,7 @@
-const client = require('frontend')
-const server = require('backend')
+const cavClient = require('frontend/index')
+const cavServer = require('backend/index')
 
 module.exports  = {
-    client,
-    server
+    cavClient,
+    cavServer
 }
